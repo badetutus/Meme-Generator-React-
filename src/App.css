@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-header {
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  width: 550px;
+  height: 65px;
+  font-family: Karla;
+  font-size: 20.75px;
+  font-weight: 700;
+  line-height: 24.25px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  
+}
+
+.input-el {
+  
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:10px;
+  width: 477px;
+}
+.meme {
+  position: relative;
+  margin-top: 50px;
+  width: 477px;
+}
+
+
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+
+button {
+  width: 477px;
+height: 40px;
+border: none;
+border-radius: 5px;
+background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+margin-top: 10px;
+color: white;
+font-family: Karla;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24.25px;
+
+}
+
+.meme--text.top {
+  top: 0; /* Position at the top of the image */
+  margin-top: 10px; /* Add some margin for better spacing */
+}
+
+.meme--text.bottom {
+  bottom: 0; /* Position at the bottom of the image */
+  margin-bottom: 10px; /* Add some margin for better spacing */
+}
